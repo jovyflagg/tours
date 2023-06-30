@@ -48,9 +48,9 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <main>
      <Tours tours={tours} removeTour={removeTour} />
-    </div>
+    </main>
   );
 }
 
